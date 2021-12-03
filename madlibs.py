@@ -1,0 +1,11 @@
+print("Welcome to the madlibs program.")
+name1 = input("Enter a name: ")
+adj1 = input("Enter an adjective: ")
+adj2 = input("Enter another adjective: ")
+monster1 = input("Enter a type of fantasy creature: ")
+steed = input("Enter a type of steed (can be a mythical/imaginary creature): ")
+monster2 = input("Enter another fantasy creature(psst, preferably a gigantic one): ")
+location = input("And finally, enter a location(bear with me, I know I've asked a lot): ")
+
+madlibs = ("In an hypothetical land far far away, existed a being by the name of {}. \nThey were often described as {} by the people, but if you were to ask them, they would probably say they're {}. \nWell, I'll cut to the chase to make this short. They were mostly known for fighting {} that had ravaged the land for a long time. They would ride their majestic {} into battle with bravado. But perhaps they're best known for defeating the {}. \nIt's been a while since they were last seen, legends have it that after achieving fame, they settled for a quite life in {} away from the cacophony of society.").format(name1, adj1, adj2, monster1, steed, monster2, location)
+print(madlibs)
